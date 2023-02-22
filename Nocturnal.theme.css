@@ -22,3 +22,4 @@
 ::placeholder, body, button, input, select, textarea{
     font-family: var(--customFont) !important;
 }
+--customFont: 'gg sans', sans-serif;
