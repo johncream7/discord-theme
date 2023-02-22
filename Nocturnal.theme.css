@@ -8,18 +8,13 @@
 * @website https://betterdiscord.app/theme/Nocturnal
 */
 @import url("https://xcruxiex.github.io/themes/themes-cores/nocturnal.css");
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+
 :root {
 --mainColor: #B40CC9FF;
 --backgroundColor01: #1F2B38FF;
 --backgroundColor02: #13192FFF;
 --gradientColor01: #1DEFF2FF;
 --gradientColor02: #FF12FBDB;
-}
-:root {
-    --font-primary: var(--customFont) ,"gg sans";
-    --font-display: var(--customFont) ,"gg sans";
-}
-::placeholder, body, button, input, select, textarea{
-    font-family: var(--customFont) !important;
-}
+
 --customFont: 'gg sans', sans-serif;
